@@ -1,0 +1,85 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* element */
+
+label {
+    background-color: aqua;
+    margin: 8px;
+    display: block;
+}
+
+input {
+    display: block;
+    margin: 7px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(54, 54, 54);
+}
+
+
+footer {
+
+    margin-bottom: 0;
+}
+
+/* class */
+
+.page, #but {
+    margin: auto;
+    width: 50%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.button {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+}
+
+.back-but {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+.grey-div {
+    background-color: #d6d6d6;
+    border-style: solid;
+    border-color: 2px;
+    /*border-width: medium;*/
+    min-width: 600px;
+    padding: 10px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.labels {
+    width: 30%;
+    background-color: red;
+    text-align: right;
+    min-width: 180px;
+}
+
+.input {
+    width: 70%;
+    background-color: green;
+    text-align: left;   
+}
+
+/* ID */
+
+#but {
+    margin-bottom: 10px;
+}
+
