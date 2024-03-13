@@ -9,17 +9,38 @@
 <body>
     <a href="index.html"><button class="back-but"> < Back </button></a>
     <div class="center">
-        <h1>login</h1>
-        <div class="grey-div">
-            <form>
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email"><br>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password"><br>
-                <input type="submit" value="Login">
-                <a href="password-reset.html">Forgot password?</a>
-            </form> 
-        </div>
+        <div class="left"><h1>Login</h1></div>
+        <form class="grey-div">
+            <div class="line">
+                <div class="labels">
+                    <label for="email">Email:</label>
+                </div>
+                <div class="input">
+                    <input type="email" id="email" name="email">
+                </div>
+            </div>
+            <div class="line">
+                <div class="labels">
+                    <label for="password">Re-type password:</label>
+                </div>
+                <div class="input">
+                    <input type="password" id="password" name="password">
+                </div>
+            </div>
+            <div class="line">
+                <div class="labels">
+                    <p> </p>
+                </div>
+                <div class="input line">
+                    <input type="submit" value="Login" class="button-small"><a href="password-reset.html">Forgot password?</a>
+                </div>
+            </div>
+        </form> 
     </div>
+    <footer>
+        <div class="footer">
+            <p>Copyright 2024 - All rights reserved by ...</p>
+        </div>
+    </footer>
 </body>
 </html>

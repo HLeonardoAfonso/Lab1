@@ -5,57 +5,60 @@
 /* element */
 
 label {
-    background-color: aqua;
     margin: 8px;
     display: block;
 }
 
-input {
-    display: block;
-    margin: 7px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(54, 54, 54);
-}
-
-
-footer {
-
-    margin-bottom: 0;
-}
-
 /* class */
 
-.page, #but {
-    margin: auto;
-    width: 50%;
+.page{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
 }
 
-.center {
-    margin: auto;
-    width: 50%;
+.logo {
+    width: 200px;
 }
 
 .button {
     cursor: pointer;
     width: 200px;
     height: 50px;
-    margin: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px black;
+    border-radius: 0;
+    border-color: black;
 }
 
 .back-but {
+    cursor: pointer;
     margin-left: 20px;
     margin-top: 20px;
     height: 30px;
     width: 100px;
+    box-shadow: 2px 2px black;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.left {
+    width: 624px;
+    left: 0;
 }
 
 .grey-div {
     background-color: #d6d6d6;
     border-style: solid;
-    border-color: 2px;
-    /*border-width: medium;*/
-    min-width: 600px;
+    border-width: 2px;
+    width: 600px;
     padding: 10px;
 }
 
@@ -65,21 +68,48 @@ footer {
 }
 
 .labels {
-    width: 30%;
-    background-color: red;
+    width: 35%;
     text-align: right;
     min-width: 180px;
 }
 
 .input {
-    width: 70%;
-    background-color: green;
-    text-align: left;   
+    width: 65%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.f-small {
+    font-size: small;
+}
+
+.button-small {
+    cursor: pointer;
+    display: block;
+    margin: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(54, 54, 54);
+    min-width: 80px;
+    padding: 2px 10px;
+    box-shadow: 2px 2px black;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    background-color: #d6d6d6;
+    padding-left: 20px;
+    font-size: small;
 }
 
 /* ID */
 
-#but {
-    margin-bottom: 10px;
-}
 
